@@ -1,34 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-<<<<<<< HEAD
-    <title><%= full_title(yield(:title)) %></title>
-=======
-    <title><%= full_title(yield(:title)) %> </title>
->>>>>>> rails-favored-ruby
-    <%= csrf_meta_tags %>
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <!--[if it IE 9]>
-    <script scr="//cdnjs.cloudflare.com/ajax/libs/htmla5shiv/r29/html5.min.js">
-    </script>
-    <![endif]-->
+    <%= render 'layouts/head' %>
   </head>
-
   <body>
-    <header class="navbar navbar-fixed-top navbar-inverse">
-      <div class="container">
-        <nav>
-          <ul class="nav navbar-nav navbar-right">
-            <li><%= link_to "Home", '#' %></li>
-            <li><%= link_to "Help", '#' %></li>
-            <li><%= link_to "Log in", '#' %></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+    <%= render 'layouts/header' %>
     <div class="container">
       <%= yield %>
+      <%= render 'layouts/footer' %>
     </div>
   </body>
 </html>
