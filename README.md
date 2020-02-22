@@ -3,6 +3,10 @@
 This is the sample application based on [Michael Hartl`s](http://www.michaelhartl.com/)
 [_Ruby on Rails Tutorial_](http://www.railstutorial.org/).
 
+---
+
+Current status of the web app: [deployment on heroku](https://guarded-castle-59257.herokuapp.com/)
+
 ## Application configuration:
 
 ```
