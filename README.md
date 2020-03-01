@@ -6,6 +6,10 @@ This is the sample application based on Michael Hartl's [_Ruby on Rails Tutorial
 
 Current status of the web app: [deployment on heroku](https://guarded-castle-59257.herokuapp.com/)
 
+---
+
+Current status of the web app: [deployment on heroku](https://guarded-castle-59257.herokuapp.com/)
+
 ## Application configuration:
 
 ```
